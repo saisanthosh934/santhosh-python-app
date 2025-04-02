@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage("Checkout") {
             steps {
-                git branch: 'main', url: 'https://github.com/saisanthosh934/santhosh-sample-app'
+                git branch: 'main', url: 'https://github.com/saisanthosh934/santhosh-python-app'
             }
         }
 
